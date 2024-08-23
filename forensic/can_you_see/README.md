@@ -15,6 +15,6 @@ To solve this chall you can use `exiftool` that used to look metadata of file.
 
 As you can see, in the metadata there's a base64 string, we can decode it and get the flag.
 
-## FLAG
+### FLAG
 
 >picoCTF{ME74D474_H!DD3N_********}
