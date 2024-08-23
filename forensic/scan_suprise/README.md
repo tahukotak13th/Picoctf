@@ -1,0 +1,23 @@
+# Scan Suprise
+
+## EASY
+
+In this chall you'll get ssh code and the password. with hint :
+
+>QR codes are a way of encoding data. While they're most known for storing URLs, they can store other things too.
+
+>Mobile phones have included native QR code scanners in their cameras since version 8 (Oreo) and iOS 11
+
+>If you don't have access to a phone, you can also use zbar-tools to convert an image to text
+
+In this chall you just need to log in use ssh that given by pico and when you log in, you will get QR code.
+
+![solve](https://private-user-images.githubusercontent.com/124356996/360974603-710f472c-e1bd-49da-ba09-6db30f16039d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjQ0MjU5NDYsIm5iZiI6MTcyNDQyNTY0NiwicGF0aCI6Ii8xMjQzNTY5OTYvMzYwOTc0NjAzLTcxMGY0NzJjLWUxYmQtNDlkYS1iYTA5LTZkYjMwZjE2MDM5ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgyM1QxNTA3MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NjU3OTQ3MWRiODEyNzJiYWEyMGE1ZTUxMDMxOGMwMjJiNmE1NTNiZjVlMzRhNGU2MDUzZjc3OWFjNjU3YzA0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2qQNqDhahl_InieDa0wQYLafzAjxsO0-jWP9KyoGE_I)
+
+You can scan this QR code using you smartphone or using `zbarimg`.
+
+![solve2](https://private-user-images.githubusercontent.com/124356996/360974609-1feed7d7-d877-4655-b865-401f8ab9d690.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjQ0MjU5NDYsIm5iZiI6MTcyNDQyNTY0NiwicGF0aCI6Ii8xMjQzNTY5OTYvMzYwOTc0NjA5LTFmZWVkN2Q3LWQ4NzctNDY1NS1iODY1LTQwMWY4YWI5ZDY5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgyM1QxNTA3MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04N2M1MzgwMTdhOTQ3NGMzY2ViMzkyNjgyMDA5Y2UwYzI1N2VhNGM5YzFlMTM5ODc0MDE0N2E1ZmUwNWJjMzMwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.THY6l4-hRzpxO9ZH3UwnwKb6qLu9RRZx98sllAO4Lv4)
+
+### FLAG
+
+>picoCTF{p33k_0-b00_*******}
